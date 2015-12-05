@@ -4,6 +4,8 @@ var elizaBt = document.getElementById('eliza_button');
 
 var eliza = new ElizaBot();
 
+var limMsgs = 7;
+
 function elizaReply() {
   if (elizaIn.value) {
     var question = document.createElement('p');
@@ -15,7 +17,7 @@ function elizaReply() {
     elizaP.appendChild(question);
     elizaP.appendChild(reply);
     
-    if (elizaP.childElementCount > 6) {
+    if (elizaP.childElementCount > limMsgs) {
       elizaP.removeChild(elizaP.firstChild);
       elizaP.removeChild(elizaP.firstChild);
     }
