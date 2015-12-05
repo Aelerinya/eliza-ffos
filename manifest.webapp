@@ -1,0 +1,22 @@
+{
+  "name": "Eliza",
+  "version": "0.1.0",
+  "description": "A implementation of the Eliza chatbot in ffos.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/icon16x16.png",
+    "48": "/icons/icon48x48.png",
+    "60": "/icons/icon60x60.png",
+    "128": "/icons/icon128x128.png",
+    "512": "/icons/icon512x512.png"
+  },
+  "developer": {
+    "name": "Aelerinya",
+    "url": "https://github.com/Aelerinya"
+  },
+  "default_locale": "en",
+  "type": "web",
+  "fullscreen": "true",
+  "orientation": "portrait"
+
+}

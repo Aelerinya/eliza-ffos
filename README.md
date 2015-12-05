@@ -1,3 +1,3 @@
 # eliza-ffos
 
-An app for firefox os.
+An implementation of the Eliza bot for firefox os.
