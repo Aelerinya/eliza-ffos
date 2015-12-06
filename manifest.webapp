@@ -1,6 +1,6 @@
 {
   "name": "Eliza",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A implementation of the Eliza chatbot in ffos.",
   "launch_path": "/index.html",
   "icons": {
@@ -16,7 +16,6 @@
   },
   "default_locale": "en",
   "type": "web",
-  "fullscreen": "true",
   "orientation": "portrait"
 
 }

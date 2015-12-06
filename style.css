@@ -1,0 +1,12 @@
+
+* {
+  word-wrap: break-word;
+}
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 5px;
+}
+#eliza_input, #eliza_button {
+  font-size: 1em;
+}
